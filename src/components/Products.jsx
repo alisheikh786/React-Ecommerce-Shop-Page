@@ -1,4 +1,4 @@
-import { React, useEffect } from "react";
+import { memo, React, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import GridProducts from "./GridProducts";
 import ListProducts from "./ListProducts";
@@ -33,4 +33,4 @@ function Products() {
   );
 }
 
-export default Products;
+export default memo(Products)

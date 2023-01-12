@@ -18,7 +18,7 @@ const {filterProducts} = useSelector((state)=>state.products)
                   <Card.Text>
                     {element.price}
                   </Card.Text>
-                  <Button as={Link} to={`/products/${element.id}`} variant="primary">Go somewhere</Button>
+                  <Button as={Link} to={`/products/${element.id}`} variant="dark">View Product</Button>
                 </Card.Body>
               </Card>
             </Col>
